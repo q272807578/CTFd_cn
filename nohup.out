@@ -1,0 +1,468 @@
+ * Loaded module, <module 'CTFd.plugins.challenges' from '/root/CTFd/CTFd/plugins/challenges/__init__.py'>
+ * Loaded module, <module 'CTFd.plugins.dynamic_challenges' from '/root/CTFd/CTFd/plugins/dynamic_challenges/__init__.py'>
+ * Loaded module, <module 'CTFd.plugins.flags' from '/root/CTFd/CTFd/plugins/flags/__init__.py'>
+ * Serving Flask app "CTFd" (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://172.19.2.27:5002/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 898-937-135
+111.37.16.136 - - [18/Mar/2020 23:03:20] "GET / HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:03:20] "GET /themes/core/static/css/fonts.dev.css?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:03:20] "GET /themes/core/static/css/main.dev.css?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:03:20] "GET /themes/core/static/css/core.dev.css?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:03:22] "GET /themes/core/static/js/vendor.bundle.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:03:22] "GET /themes/core/static/js/core.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:03:22] "GET /themes/core/static/js/pages/main.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:03:22] "GET /themes/core/static/js/helpers.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:03:26] "GET /challenges HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:03:26] "GET /themes/core/static/css/challenge-board.dev.css?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:03:27] "GET /themes/core/static/js/vendor.bundle.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:03:27] "GET /themes/core/static/js/pages/challenges.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:03:44] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:03:44] "GET /themes/core/static/img/favicon.ico?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:03:44] "GET /api/v1/challenges HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:03:44] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+ * Loaded module, <module 'CTFd.plugins.challenges' from '/root/CTFd/CTFd/plugins/challenges/__init__.py'>
+ * Loaded module, <module 'CTFd.plugins.dynamic_challenges' from '/root/CTFd/CTFd/plugins/dynamic_challenges/__init__.py'>
+ * Loaded module, <module 'CTFd.plugins.flags' from '/root/CTFd/CTFd/plugins/flags/__init__.py'>
+ * Serving Flask app "CTFd" (lazy loading)
+ * Environment: development
+ * Debug mode: on
+Traceback (most recent call last):
+  File "serve.py", line 30, in <module>
+    app.run(debug=True, threaded=True, host="172.19.2.27", port=args.port)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 988, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+111.37.16.136 - - [18/Mar/2020 23:03:54] "GET /users HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:04:05] "GET /scoreboard HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:04:05] "GET /themes/core/static/js/plotly.bundle.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:04:05] "GET /themes/core/static/js/pages/scoreboard.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:04:18] "GET /api/v1/scoreboard/top/10 HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:04:18] "GET /api/v1/scoreboard/top/10 HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:06:38] "GET /scoreboard HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:06:38] "GET /api/v1/scoreboard/top/10 HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:06:38] "GET /api/v1/scoreboard/top/10 HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:06:40] "GET /challenges HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:06:40] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:06:40] "GET /api/v1/challenges HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:06:40] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:06:43] "GET /settings HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:06:43] "GET /themes/core/static/js/pages/settings.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:06:52] "POST /api/v1/tokens HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:07:27] "POST /api/v1/tokens HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:08:44] "GET /users HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:08:46] "GET /scoreboard HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:08:47] "GET /api/v1/scoreboard/top/10 HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:08:47] "GET /api/v1/scoreboard/top/10 HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:08:48] "GET /challenges HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:08:48] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:08:49] "GET /api/v1/challenges HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:08:49] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:09:18] "GET / HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:29:01] "GET / HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:29:02] "GET /themes/core/static/img/favicon.ico?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:29:04] "GET /challenges HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:29:04] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:29:05] "GET /api/v1/challenges HTTP/1.1" 200 -
+111.37.16.136 - - [18/Mar/2020 23:29:05] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:02] "GET /challenges HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:03] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:03] "GET /api/v1/challenges HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:03] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:06] "GET /plugins/challenges/assets/view.js?_=1584549182993 HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:06] "GET /api/v1/challenges/1/solves HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:06] "GET /api/v1/challenges/1 HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:10] "GET /scoreboard HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:11] "GET /api/v1/scoreboard/top/10 HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:11] "GET /api/v1/scoreboard/top/10 HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:15] "GET /challenges HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:15] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:15] "GET /api/v1/challenges HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:15] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:20] "GET /notifications HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:20] "GET /themes/core/static/js/pages/notifications.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:27] "GET /user HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:27] "GET /themes/core/static/js/pages/stats.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:27] "GET /themes/core/static/js/graphs.dev.js?d=e2c49f1a HTTP/1.1" 404 -
+111.37.16.136 - - [19/Mar/2020 00:33:27] "GET /api/v1/users/me/awards HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:27] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:27] "GET /api/v1/users/me/fails HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:33:47] "GET /settings HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:05] "GET /logout HTTP/1.1" 302 -
+111.37.16.136 - - [19/Mar/2020 00:34:05] "GET / HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:05] "GET /events HTTP/1.1" 403 -
+111.37.16.136 - - [19/Mar/2020 00:34:09] "GET / HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:10] "GET /themes/core/static/css/fonts.dev.css?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:10] "GET /themes/core/static/img/logo.png HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:10] "GET /themes/core/static/js/vendor.bundle.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:10] "GET /themes/core/static/css/core.dev.css?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:10] "GET /themes/core/static/css/main.dev.css?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:10] "GET /themes/core/static/js/core.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:13] "GET /themes/core/static/js/helpers.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:13] "GET /themes/core/static/js/pages/main.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:20] "GET /themes/core/static/fonts/lato-latin-400.woff2 HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:29] "GET /register HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:29] "GET /themes/core/static/js/vendor.bundle.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:32] "GET /challenges HTTP/1.1" 302 -
+111.37.16.136 - - [19/Mar/2020 00:34:32] "GET /login?next=%2Fchallenges%3F HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:32] "GET /themes/core/static/js/vendor.bundle.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:34] "GET /scoreboard HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:34] "GET /themes/core/static/js/vendor.bundle.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:51] "GET /api/v1/scoreboard/top/10 HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:51] "GET /api/v1/scoreboard/top/10 HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:52] "GET /events HTTP/1.1" 403 -
+111.37.16.136 - - [19/Mar/2020 00:34:57] "GET /users HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:34:57] "GET /events HTTP/1.1" 403 -
+111.37.16.136 - - [19/Mar/2020 00:35:09] "GET /login HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:35:10] "GET /events HTTP/1.1" 403 -
+111.37.16.136 - - [19/Mar/2020 00:35:11] "GET /register HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:35:12] "GET /events HTTP/1.1" 403 -
+111.37.16.136 - - [19/Mar/2020 00:35:19] "GET / HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:35:19] "GET /events HTTP/1.1" 403 -
+111.37.16.136 - - [19/Mar/2020 00:35:27] "GET /login HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:35:28] "GET /events HTTP/1.1" 403 -
+ * Loaded module, <module 'CTFd.plugins.challenges' from '/root/CTFd/CTFd/plugins/challenges/__init__.py'>
+ * Loaded module, <module 'CTFd.plugins.dynamic_challenges' from '/root/CTFd/CTFd/plugins/dynamic_challenges/__init__.py'>
+ * Loaded module, <module 'CTFd.plugins.flags' from '/root/CTFd/CTFd/plugins/flags/__init__.py'>
+[03/19/2020 00:35:33] 111.37.16.136 - admin logged in
+[03/19/2020 00:35:33] 111.37.16.136 - admin logged in
+111.37.16.136 - - [19/Mar/2020 00:35:33] "POST /login HTTP/1.1" 302 -
+111.37.16.136 - - [19/Mar/2020 00:35:34] "GET /challenges HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:35:34] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:35:34] "GET /api/v1/challenges HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:35:35] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:35:45] "GET /admin HTTP/1.1" 302 -
+111.37.16.136 - - [19/Mar/2020 00:35:47] "GET /admin/statistics HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:35:47] "GET /themes/admin/static/css/admin.dev.css?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:35:47] "GET /themes/admin/static/js/vendor.bundle.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:35:47] "GET /themes/admin/static/js/core.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:35:47] "GET /themes/admin/static/js/helpers.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:35:47] "GET /themes/admin/static/js/pages/statistics.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:35:47] "GET /themes/admin/static/js/graphs.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:35:47] "GET /themes/admin/static/js/plotly.bundle.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:36:22] "GET /api/v1/statistics/submissions/type HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:36:22] "GET /api/v1/statistics/challenges/category HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:36:22] "GET /api/v1/statistics/challenges/solves HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:36:22] "GET /api/v1/statistics/challenges/solves/percentages HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:38:54] "GET / HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:39:07] "GET /admin HTTP/1.1" 302 -
+111.37.16.136 - - [19/Mar/2020 00:39:08] "GET /admin/statistics HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:39:08] "GET /api/v1/statistics/submissions/type HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:39:08] "GET /api/v1/statistics/challenges/solves HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:39:08] "GET /api/v1/statistics/challenges/category HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:39:08] "GET /api/v1/statistics/challenges/solves/percentages HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:41:56] "GET / HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:41:56] "GET /themes/core/static/img/favicon.ico?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:41:59] "GET /admin HTTP/1.1" 302 -
+111.37.16.136 - - [19/Mar/2020 00:41:59] "GET /admin/statistics HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:00] "GET /api/v1/statistics/challenges/solves HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:00] "GET /api/v1/statistics/submissions/type HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:00] "GET /api/v1/statistics/challenges/category HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:00] "GET /api/v1/statistics/challenges/solves/percentages HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:14] "GET /admin/statistics HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:14] "GET /api/v1/statistics/challenges/solves HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:14] "GET /api/v1/statistics/challenges/category HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:14] "GET /api/v1/statistics/submissions/type HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:14] "GET /api/v1/statistics/challenges/solves/percentages HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:17] "GET /admin/notifications HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:17] "GET /themes/admin/static/js/pages/notifications.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:31] "GET /admin/users HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:31] "GET /themes/admin/static/js/pages/users.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:38] "GET /admin/users/new HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:38] "GET /themes/admin/static/js/pages/user.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:50] "GET /admin/scoreboard HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:50] "GET /themes/admin/static/js/pages/scoreboard.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:54] "GET /admin/challenges HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:54] "GET /themes/admin/static/css/challenge-board.dev.css?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:42:54] "GET /themes/admin/static/js/pages/main.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:43:04] "GET /admin/submissions/correct HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:43:04] "GET /themes/admin/static/js/pages/submissions.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:43:08] "GET /admin/config HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:43:08] "GET /themes/admin/static/js/pages/configs.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:44:00] "GET /admin/reset HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:44:00] "GET /themes/admin/static/js/pages/reset.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:45:53] "GET /admin/config HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:45:58] "GET / HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:46:06] "GET /admin HTTP/1.1" 302 -
+111.37.16.136 - - [19/Mar/2020 00:46:06] "GET /admin/statistics HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:46:07] "GET /api/v1/statistics/challenges/solves HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:46:07] "GET /api/v1/statistics/challenges/category HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:46:07] "GET /api/v1/statistics/challenges/solves/percentages HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 00:46:09] "GET /api/v1/statistics/submissions/type HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:35:10] "GET / HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:37:37] "GET /admin HTTP/1.1" 302 -
+113.120.48.159 - - [19/Mar/2020 08:37:38] "GET /admin/statistics HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:37:39] "GET /api/v1/statistics/challenges/solves HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:37:40] "GET /api/v1/statistics/submissions/type HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:37:40] "GET /api/v1/statistics/challenges/category HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:37:40] "GET /api/v1/statistics/challenges/solves/percentages HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:37:44] "GET /admin/pages/new HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:37:44] "GET /themes/admin/static/css/codemirror.dev.css?d=e2c49f1a HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:37:44] "GET /themes/admin/static/js/pages/editor.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:37:46] "GET /admin/pages HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:37:46] "GET /themes/admin/static/js/pages/pages.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:37:50] "GET /admin/pages/1 HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:39:19] "PATCH /api/v1/pages/1 HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:39:24] "GET / HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:39:28] "GET /admin HTTP/1.1" 302 -
+113.120.48.159 - - [19/Mar/2020 08:39:29] "GET /admin/statistics HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:39:29] "GET /api/v1/statistics/challenges/solves HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:39:29] "GET /api/v1/statistics/submissions/type HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:39:29] "GET /api/v1/statistics/challenges/category HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:39:29] "GET /api/v1/statistics/challenges/solves/percentages HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:39:34] "GET /logout HTTP/1.1" 302 -
+113.120.48.159 - - [19/Mar/2020 08:39:34] "GET / HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:39:34] "GET /events HTTP/1.1" 403 -
+113.120.48.159 - - [19/Mar/2020 08:39:36] "GET /admin HTTP/1.1" 302 -
+113.120.48.159 - - [19/Mar/2020 08:39:36] "GET /login HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:39:36] "GET /events HTTP/1.1" 403 -
+113.120.48.159 - - [19/Mar/2020 08:39:38] "GET /events HTTP/1.1" 403 -
+113.120.48.159 - - [19/Mar/2020 08:39:41] "GET /register HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:39:42] "GET /events HTTP/1.1" 403 -
+113.120.48.159 - - [19/Mar/2020 08:39:47] "GET /users HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:39:47] "GET /events HTTP/1.1" 403 -
+113.120.48.159 - - [19/Mar/2020 08:39:50] "GET /users/2 HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:39:50] "GET /themes/core/static/js/graphs.dev.js?d=e2c49f1a HTTP/1.1" 404 -
+113.120.48.159 - - [19/Mar/2020 08:39:50] "GET /api/v1/users/2/awards HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:39:50] "GET /api/v1/users/2/fails HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:39:50] "GET /api/v1/users/2/solves HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:39:51] "GET /events HTTP/1.1" 403 -
+113.120.48.159 - - [19/Mar/2020 08:40:06] "GET /login HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:40:06] "GET /events HTTP/1.1" 403 -
+113.120.48.159 - - [19/Mar/2020 08:40:12] "GET / HTTP/1.1" 200 -
+113.120.48.159 - - [19/Mar/2020 08:40:12] "GET /events HTTP/1.1" 403 -
+60.208.18.180 - - [19/Mar/2020 08:44:02] "GET / HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:44:02] "GET /themes/core/static/css/fonts.dev.css?d=e2c49f1a HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:44:02] "GET /themes/core/static/css/main.dev.css?d=e2c49f1a HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:44:02] "GET /themes/core/static/css/core.dev.css?d=e2c49f1a HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:44:02] "GET /themes/core/static/img/logo.png HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:44:02] "GET /themes/core/static/js/vendor.bundle.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:44:02] "GET /robots.txt HTTP/1.1" 404 -
+60.208.18.180 - - [19/Mar/2020 08:44:03] "GET /themes/core/static/js/core.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:44:04] "GET /themes/core/static/js/helpers.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:44:04] "GET /themes/core/static/js/pages/main.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:44:05] "GET /themes/core/static/fonts/lato-latin-400.woff2 HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:44:22] "GET /themes/core/static/sounds/notification.webm HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:44:22] "GET /themes/core/static/img/favicon.ico?d=e2c49f1a HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:44:22] "GET /events HTTP/1.1" 403 -
+60.208.18.180 - - [19/Mar/2020 08:49:08] "GET / HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:49:09] "GET /events HTTP/1.1" 403 -
+60.208.18.180 - - [19/Mar/2020 08:49:11] "GET /admin HTTP/1.1" 302 -
+60.208.18.180 - - [19/Mar/2020 08:49:11] "GET /login HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:49:12] "GET /themes/core/static/fonts/raleway-latin-500.woff2 HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:49:12] "GET /themes/core/static/fonts/lato-latin-700.woff2 HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:49:12] "GET /events HTTP/1.1" 403 -
+60.208.18.180 - - [19/Mar/2020 08:49:15] "GET /users HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:49:16] "GET /events HTTP/1.1" 403 -
+60.208.18.180 - - [19/Mar/2020 08:49:22] "GET /challenges HTTP/1.1" 302 -
+60.208.18.180 - - [19/Mar/2020 08:49:22] "GET /login?next=%2Fchallenges%3F HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:49:22] "GET /events HTTP/1.1" 403 -
+60.208.18.180 - - [19/Mar/2020 08:49:24] "GET /users HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:49:24] "GET /events HTTP/1.1" 403 -
+60.208.18.180 - - [19/Mar/2020 08:49:24] "GET / HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:49:25] "GET /events HTTP/1.1" 403 -
+60.208.18.180 - - [19/Mar/2020 08:49:26] "GET /register HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:49:26] "GET /events HTTP/1.1" 403 -
+60.208.18.180 - - [19/Mar/2020 08:49:29] "GET /login HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 08:49:29] "GET /events HTTP/1.1" 403 -
+60.208.18.180 - - [19/Mar/2020 17:29:21] "GET / HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 17:29:22] "GET /themes/core/static/css/main.dev.css?d=e2c49f1a HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 17:29:22] "GET /themes/core/static/css/core.dev.css?d=e2c49f1a HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 17:29:22] "GET /themes/core/static/css/fonts.dev.css?d=e2c49f1a HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 17:29:22] "GET /themes/core/static/img/logo.png HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 17:29:22] "GET /themes/core/static/js/vendor.bundle.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 17:29:22] "GET /themes/core/static/js/core.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 17:29:25] "GET /themes/core/static/js/helpers.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 17:29:25] "GET /themes/core/static/js/pages/main.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+60.208.18.180 - - [19/Mar/2020 17:29:25] "GET /themes/core/static/fonts/lato-latin-400.woff2 HTTP/1.1" 200 -
+47.103.33.128 - - [19/Mar/2020 22:59:30] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+47.103.33.128 - - [19/Mar/2020 22:59:30] "          GetClassName        " HTTPStatus.BAD_REQUEST -
+47.103.33.128 - - [19/Mar/2020 22:59:35] "GET / HTTP/1.0" 200 -
+47.103.33.128 - - [19/Mar/2020 23:06:11] "GET / HTTP/1.0" 200 -
+47.103.33.128 - - [19/Mar/2020 23:06:25] "POST /sdk HTTP/1.1" 404 -
+47.103.33.128 - - [19/Mar/2020 23:06:27] "GET /nmaplowercheck1584630371 HTTP/1.1" 404 -
+47.103.33.128 - - [19/Mar/2020 23:06:27] "GET /evox/about HTTP/1.1" 404 -
+47.103.33.128 - - [19/Mar/2020 23:06:27] "GET /HNAP1 HTTP/1.1" 404 -
+47.103.33.128 - - [19/Mar/2020 23:06:32] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Âªq×\x16ûøã VpÔs\x8d1[\x9bY|¸y¹'tÛå%\x0fÎ\x8db\x8d °3õ¿Öt\x0b\x98õ¤7Tº&H¿º¦gÜeÆµ@Ã\x8aÔU\x1b\x0eaý\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+47.103.33.128 - - [19/Mar/2020 23:06:32] "  üÂªq×ûøã VpÔs1[Y|¸y¹'tÛå%Îb °3õ¿Ötõ¤7Tº&H¿º¦gÜeÆµ@ÃÔUaý  3 9 5 /À,À0 £ Ì©Ì¨ÌªÀ¯À­À£ÀÀ]ÀaÀWÀSÀ+À/ ¢ À®À¬À¢ÀÀ\À`ÀVÀRÀ$À( k jÀsÀw Ä ÃÀ#À' g @ÀrÀv ¾ ½À" HTTPStatus.BAD_REQUEST -
+47.103.33.128 - - [19/Mar/2020 23:06:41] "GET / HTTP/1.0" 200 -
+47.103.33.128 - - [19/Mar/2020 23:06:41] "GET / HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 23:55:58] "GET / HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 23:55:58] "GET /themes/core/static/js/vendor.bundle.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 23:56:05] "GET / HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 23:56:05] "GET /themes/core/static/js/vendor.bundle.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 23:56:11] "GET /admin HTTP/1.1" 302 -
+111.37.16.136 - - [19/Mar/2020 23:56:12] "GET /login HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 23:56:12] "GET /themes/core/static/js/vendor.bundle.dev.js?d=e2c49f1a HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 23:56:12] "GET /themes/core/static/fonts/raleway-latin-500.woff2 HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 23:56:15] "GET /themes/core/static/fonts/lato-latin-700.woff2 HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 23:56:31] "GET /themes/core/static/sounds/notification.webm HTTP/1.1" 200 -
+111.37.16.136 - - [19/Mar/2020 23:56:31] "GET /events HTTP/1.1" 403 -
+ * Loaded module, <module 'CTFd.plugins.challenges' from '/root/CTFd/CTFd/plugins/challenges/__init__.py'>
+ * Loaded module, <module 'CTFd.plugins.dynamic_challenges' from '/root/CTFd/CTFd/plugins/dynamic_challenges/__init__.py'>
+ * Loaded module, <module 'CTFd.plugins.flags' from '/root/CTFd/CTFd/plugins/flags/__init__.py'>
+ * Serving Flask app "CTFd" (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://172.19.2.27:5002/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 898-937-135
+111.37.16.136 - - [20/Mar/2020 12:02:52] "GET / HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 12:02:52] "GET /themes/core/static/css/fonts.dev.css?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 12:02:52] "GET /themes/core/static/css/core.dev.css?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 12:02:52] "GET /themes/core/static/js/vendor.bundle.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 12:02:52] "GET /themes/core/static/css/main.dev.css?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 12:02:52] "GET /themes/core/static/img/logo.png HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 12:02:52] "GET /themes/core/static/js/core.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 12:02:56] "GET /themes/core/static/js/helpers.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 12:02:56] "GET /themes/core/static/js/pages/main.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 12:02:57] "GET /themes/core/static/fonts/lato-latin-400.woff2 HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 12:03:12] "GET /themes/core/static/sounds/notification.webm HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 12:03:12] "GET /themes/core/static/img/favicon.ico?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 12:03:12] "GET /events HTTP/1.1" 403 -
+111.37.16.136 - - [20/Mar/2020 12:03:44] "GET /challenges HTTP/1.1" 302 -
+111.37.16.136 - - [20/Mar/2020 12:03:45] "GET /login?next=%2Fchallenges%3F HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 12:03:45] "GET /themes/core/static/fonts/lato-latin-700.woff2 HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 12:03:45] "GET /themes/core/static/fonts/raleway-latin-500.woff2 HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 12:03:45] "GET /events HTTP/1.1" 403 -
+222.175.97.178 - - [20/Mar/2020 12:04:39] "GET / HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:04:39] "GET /favicon.ico HTTP/1.1" 404 -
+222.175.97.178 - - [20/Mar/2020 12:04:39] "GET /themes/core/static/css/fonts.dev.css?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:04:39] "GET /themes/core/static/css/core.dev.css?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:04:39] "GET /themes/core/static/css/main.dev.css?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:04:39] "GET /themes/core/static/img/favicon.ico?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:04:39] "GET /themes/core/static/img/logo.png HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:04:40] "GET /themes/core/static/js/vendor.bundle.dev.js?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:04:42] "GET /themes/core/static/js/core.dev.js?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:04:42] "GET /themes/core/static/js/helpers.dev.js?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:04:42] "GET /themes/core/static/js/pages/main.dev.js?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:04:42] "GET /themes/core/static/fonts/lato-latin-400.woff2 HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:04:58] "GET /themes/core/static/sounds/notification.webm HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:04:58] "GET /events HTTP/1.1" 403 -
+222.175.97.178 - - [20/Mar/2020 12:05:16] "GET /challenges HTTP/1.1" 302 -
+222.175.97.178 - - [20/Mar/2020 12:05:16] "GET /login?next=%2Fchallenges%3F HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:16] "GET /themes/core/static/img/favicon.ico?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:16] "GET /themes/core/static/fonts/raleway-latin-500.woff2 HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:17] "GET /themes/core/static/fonts/lato-latin-700.woff2 HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:17] "GET /events HTTP/1.1" 403 -
+222.175.97.178 - - [20/Mar/2020 12:05:18] "GET /users HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:18] "GET /themes/core/static/img/favicon.ico?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:18] "GET /events HTTP/1.1" 403 -
+222.175.97.178 - - [20/Mar/2020 12:05:20] "GET /users/3 HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:20] "GET /themes/core/static/js/pages/stats.dev.js?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:20] "GET /themes/core/static/img/favicon.ico?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:20] "GET /themes/core/static/js/plotly.bundle.dev.js?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:20] "GET /themes/core/static/js/graphs.dev.js?d=e1a3001e HTTP/1.1" 404 -
+222.175.97.178 - - [20/Mar/2020 12:05:24] "GET /scoreboard HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:24] "GET /themes/core/static/js/pages/scoreboard.dev.js?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:24] "GET /themes/core/static/img/favicon.ico?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:24] "GET /themes/core/static/js/plotly.bundle.dev.js?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:25] "GET /challenges HTTP/1.1" 302 -
+222.175.97.178 - - [20/Mar/2020 12:05:25] "GET /login?next=%2Fchallenges%3F HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:25] "GET /themes/core/static/img/favicon.ico?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:25] "GET /events HTTP/1.1" 403 -
+222.175.97.178 - - [20/Mar/2020 12:05:27] "GET /register HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:27] "GET /themes/core/static/img/favicon.ico?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:27] "GET /events HTTP/1.1" 403 -
+222.175.97.178 - - [20/Mar/2020 12:05:28] "GET /users HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:28] "GET /themes/core/static/img/favicon.ico?d=e1a3001e HTTP/1.1" 200 -
+222.175.97.178 - - [20/Mar/2020 12:05:29] "GET /events HTTP/1.1" 403 -
+101.132.159.74 - - [20/Mar/2020 13:49:08] "GET / HTTP/1.1" 200 -
+101.132.159.74 - - [20/Mar/2020 13:49:10] "GET /themes/core/static/img/logo.png HTTP/1.1" 200 -
+60.208.18.180 - - [20/Mar/2020 15:19:06] "GET / HTTP/1.1" 200 -
+60.208.18.180 - - [20/Mar/2020 15:19:06] "GET /themes/core/static/css/fonts.dev.css?d=e1a3001e HTTP/1.1" 200 -
+60.208.18.180 - - [20/Mar/2020 15:19:06] "GET /themes/core/static/css/main.dev.css?d=e1a3001e HTTP/1.1" 200 -
+60.208.18.180 - - [20/Mar/2020 15:19:06] "GET /themes/core/static/css/core.dev.css?d=e1a3001e HTTP/1.1" 200 -
+60.208.18.180 - - [20/Mar/2020 15:19:06] "GET /themes/core/static/img/logo.png HTTP/1.1" 200 -
+60.208.18.180 - - [20/Mar/2020 15:19:06] "GET /themes/core/static/js/vendor.bundle.dev.js?d=e1a3001e HTTP/1.1" 200 -
+60.208.18.180 - - [20/Mar/2020 15:19:06] "GET /themes/core/static/js/core.dev.js?d=e1a3001e HTTP/1.1" 200 -
+60.208.18.180 - - [20/Mar/2020 15:19:08] "GET /themes/core/static/js/helpers.dev.js?d=e1a3001e HTTP/1.1" 200 -
+60.208.18.180 - - [20/Mar/2020 15:19:08] "GET /themes/core/static/js/pages/main.dev.js?d=e1a3001e HTTP/1.1" 200 -
+101.133.140.205 - - [20/Mar/2020 15:43:28] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x1c\x8bPÞ\x81G\x10Ì×ú\x10]\x84¡4Ö3\x1b\x8cQ¡¥¬Ì·*\x9aÇÀM\x95, Ú;âàc[fG\x07\x08\x16©\x1dD\x05Ç\xa0S\x96ó1Á»\x8f\x8dâÙ\x91Ê\x91$X\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+101.133.140.205 - - [20/Mar/2020 15:43:28] "  üPÞGÌ×ú]¡4Ö3Q¡¥¬Ì·*ÇÀM, Ú;âàc[fG©DÇ Só1Á»âÙÊ$X >À,À0 Ì©Ì¨ÌªÀ+À/ À$À( kÀ#À' gÀ" HTTPStatus.BAD_REQUEST -
+101.133.140.205 - - [20/Mar/2020 15:43:28] "GET / HTTP/1.1" 200 -
+47.94.52.138 - - [20/Mar/2020 16:09:01] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+47.94.52.138 - - [20/Mar/2020 16:09:01] "          GetClassName        " HTTPStatus.BAD_REQUEST -
+60.208.18.180 - - [20/Mar/2020 16:25:08] "GET / HTTP/1.1" 200 -
+60.208.18.180 - - [20/Mar/2020 16:25:09] "GET /themes/core/static/js/vendor.bundle.dev.js?d=e1a3001e HTTP/1.1" 200 -
+60.208.18.180 - - [20/Mar/2020 16:25:09] "GET /themes/core/static/css/main.dev.css?d=e1a3001e HTTP/1.1" 200 -
+60.208.18.180 - - [20/Mar/2020 16:25:12] "GET /themes/core/static/fonts/lato-latin-400.woff2 HTTP/1.1" 200 -
+45.141.86.117 - - [20/Mar/2020 19:59:22] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.141.86.117 - - [20/Mar/2020 19:59:22] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+45.141.86.117 - - [20/Mar/2020 19:59:22] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.141.86.117 - - [20/Mar/2020 19:59:22] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+45.141.86.149 - - [20/Mar/2020 20:24:50] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.141.86.149 - - [20/Mar/2020 20:24:50] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+45.141.86.149 - - [20/Mar/2020 20:24:51] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.141.86.149 - - [20/Mar/2020 20:24:51] "  /*à     Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+51.75.52.127 - - [20/Mar/2020 22:27:41] "GET / HTTP/1.1" 200 -
+51.75.52.127 - - [20/Mar/2020 22:27:42] "GET /themes/core/static/img/favicon.ico?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:40:27] "GET / HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:40:28] "GET /events HTTP/1.1" 403 -
+111.37.16.136 - - [20/Mar/2020 22:40:34] "GET /login HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:40:35] "GET /events HTTP/1.1" 403 -
+ * Loaded module, <module 'CTFd.plugins.challenges' from '/root/CTFd/CTFd/plugins/challenges/__init__.py'>
+ * Loaded module, <module 'CTFd.plugins.dynamic_challenges' from '/root/CTFd/CTFd/plugins/dynamic_challenges/__init__.py'>
+ * Loaded module, <module 'CTFd.plugins.flags' from '/root/CTFd/CTFd/plugins/flags/__init__.py'>
+[03/20/2020 22:40:38] 111.37.16.136 - submitted invalid password for None
+[03/20/2020 22:40:38] 111.37.16.136 - submitted invalid password for None
+111.37.16.136 - - [20/Mar/2020 22:40:38] "POST /login HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:40:39] "GET /events HTTP/1.1" 403 -
+[03/20/2020 22:40:43] 111.37.16.136 - submitted invalid password for None
+[03/20/2020 22:40:43] 111.37.16.136 - submitted invalid password for None
+111.37.16.136 - - [20/Mar/2020 22:40:43] "POST /login HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:40:43] "GET /events HTTP/1.1" 403 -
+[03/20/2020 22:40:48] 111.37.16.136 - submitted invalid password for None
+[03/20/2020 22:40:48] 111.37.16.136 - submitted invalid password for None
+111.37.16.136 - - [20/Mar/2020 22:40:48] "POST /login HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:40:49] "GET /events HTTP/1.1" 403 -
+[03/20/2020 22:40:57] 111.37.16.136 - submitted invalid password for None
+[03/20/2020 22:40:57] 111.37.16.136 - submitted invalid password for None
+111.37.16.136 - - [20/Mar/2020 22:40:57] "POST /login HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:40:58] "GET /events HTTP/1.1" 403 -
+[03/20/2020 22:41:02] 111.37.16.136 - admin logged in
+[03/20/2020 22:41:02] 111.37.16.136 - admin logged in
+111.37.16.136 - - [20/Mar/2020 22:41:02] "POST /login HTTP/1.1" 302 -
+111.37.16.136 - - [20/Mar/2020 22:41:02] "GET /challenges HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:02] "GET /themes/core/static/css/challenge-board.dev.css?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:02] "GET /themes/core/static/js/pages/challenges.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:02] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:03] "GET /api/v1/challenges HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:03] "GET /api/v1/users/me/solves HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:10] "GET /users HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:16] "GET /scoreboard HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:16] "GET /themes/core/static/js/plotly.bundle.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:16] "GET /themes/core/static/js/pages/scoreboard.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:29] "GET /api/v1/scoreboard/top/10 HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:29] "GET /api/v1/scoreboard/top/10 HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:33] "GET /admin HTTP/1.1" 302 -
+111.37.16.136 - - [20/Mar/2020 22:41:35] "GET /admin/statistics HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:35] "GET /themes/admin/static/js/core.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:35] "GET /themes/admin/static/js/vendor.bundle.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:35] "GET /themes/admin/static/css/admin.dev.css?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:35] "GET /themes/admin/static/js/graphs.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:35] "GET /themes/admin/static/js/helpers.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:35] "GET /themes/admin/static/js/plotly.bundle.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:41:35] "GET /themes/admin/static/js/pages/statistics.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:42:07] "GET /admin/statistics HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:42:07] "GET /themes/admin/static/js/vendor.bundle.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:42:27] "GET /api/v1/statistics/submissions/type HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:42:27] "GET /api/v1/statistics/challenges/category HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:42:27] "GET /api/v1/statistics/challenges/solves HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:42:27] "GET /api/v1/statistics/challenges/solves/percentages HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:42:28] "GET /themes/core/static/img/favicon.ico?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:43:29] "GET /admin/submissions/incorrect HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:43:29] "GET /themes/admin/static/js/pages/submissions.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:43:35] "GET /admin/submissions/correct HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:43:39] "GET /admin/scoreboard HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:43:40] "GET /themes/admin/static/js/pages/scoreboard.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:43:44] "GET /admin/notifications HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:43:44] "GET /themes/admin/static/js/pages/notifications.dev.js?d=e1a3001e HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:43:49] "GET /admin/config HTTP/1.1" 200 -
+111.37.16.136 - - [20/Mar/2020 22:43:49] "GET /themes/admin/static/js/pages/configs.dev.js?d=e1a3001e HTTP/1.1" 200 -
